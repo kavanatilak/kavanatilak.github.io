@@ -2,23 +2,59 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f0f4f8;
     color: #333;
-    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.column {
+    padding: 20px;
+}
+
+.intro {
+    flex: 1;
+    background-color: #16a085;
+    color: white;
+    margin-right: 20px;
+    max-width: 300px;
+}
+
+.portfolio {
+    flex: 3;
+    background-color: #ffffff;
+    color: #333;
 }
 
 h1 {
     color: #2c3e50;
-    font-size: 2.5rem;
+    font-size: 2rem; /* Reduced from 2.5rem */
 }
 
 h2 {
-    color: #16a085;
-    font-size: 2rem;
-    margin-bottom: 10px;
+    color: #2c3e50;
+    font-size: 1.6rem; /* Reduced from 2rem */
+}
+
+p {
+    font-size: 1rem; /* Reduced from 1.2rem */
+}
+
+ul li {
+    font-size: 1rem; /* Reduced from 1.1rem */
+    margin-bottom: 8px;
 }
 
 a {
     color: #2980b9;
     text-decoration: none;
+    font-size: 1rem;
 }
 
 a:hover {
@@ -28,24 +64,4 @@ a:hover {
 ul {
     list-style-type: none;
     padding-left: 0;
-}
-
-ul li {
-    margin-bottom: 10px;
-    font-size: 1.1rem;
-}
-
-p {
-    font-size: 1.2rem;
-}
-
-/* Add a nice footer */
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #34495e;
-    color: white;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
