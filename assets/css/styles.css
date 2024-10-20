@@ -14,30 +14,24 @@ body {
     gap: 20px; /* Adds space between the two columns */
 }
 
-.column {
-    padding: 20px;
-}
-
-/* Gray Option for the Intro */
+/* Centering content in the left column */
 .intro {
     flex: 1;
     background-color: #e0e0e0; /* Light gray background */
     color: #333; /* Darker text to contrast */
     max-width: 300px;
     min-width: 250px;
+
+    /* New properties for centering */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center */
+    align-items: center;     /* Horizontally center */
+    text-align: center;      /* Center text inside */
+    height: 100vh;           /* Full height */
 }
 
-/* Uncomment below for Blue Option */
-/* 
-.intro {
-    flex: 1;
-    background-color: #3498db; /* Soft blue background */
-    color: white; /* White text for contrast */
-    max-width: 300px;
-    min-width: 250px;
-}
-*/
-
+/* Portfolio section stays the same */
 .portfolio {
     flex: 2;
     background-color: #ffffff;
