@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #2c3e50;
+    font-size: 2.5rem;
+}
+
+h2 {
+    color: #16a085;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+/* Add a nice footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #34495e;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
